@@ -4,139 +4,111 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    
-    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Food Sense</title>
   </head>
-
   <body>
-    <h1>Header here</h1>
-    <div class="wrapper">
-      <main class="main">
-        <div class="main-container">
-          <div class="main-image">
+    <div class="page-container">
+      <header class="header-container">
+        <img
+          class="header-container__img"
+          src="https://via.placeholder.com/120/E8117F/fff?text=LOGO"
+          alt="Logo"
+        />
+        <nav class="header-container__navbar">
+          <ul class="navbar-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main-container">
+        <div class="hero-container">
+          <img
+            src="https://via.placeholder.com/800x445/32c92c/fff?text=HERO"
+            alt=""
+          />
+          <nav class="hero-container__navbar">
+            <ul class="navbar-list">
+              <li><a href="#">Featured</a></li>
+              <li><a href="#">Popular</a></li>
+              <li><a href="#">Recent</a></li>
+              <li><a href="#">Recent</a></li>
+              <li><a href="#">Recent</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="subscribe-container">
+          <div class="subscribe-info">
+            <p>Subscribe to our newsletter to receive updates.</p>
+          </div>
+          <form class="subscribe-form" action="#">
+            <input type="email" name="email" placeholder="Your Email" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+
+        <div class="cards-container">
+          <div class="card">
             <img
-              src="https://via.placeholder.com/800x445/32c92c/fff?text=HERO"
-              alt="Image"
+              src="https://via.placeholder.com/200x140/E8117F/fff?text=Featured"
             />
+            <h2>Card 1</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
+              urna et magna placerat tempor sed nec erat.
+            </p>
           </div>
-
-          <div id="main-navbar">
-            <div clas="main-navbar-container">
-              <div class="main-navbar__item">Item 1</div>
-              <div class="main-navbar__item">Item 2</div>
-              <div class="main-navbar__item">Item 3</div>
-              <div class="main-navbar__item">Item 4</div>
-            </div>
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/200x140/E8117F/fff?text=Featured"
+            />
+            <h2>Card 2</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
+              urna et magna placerat tempor sed nec erat.
+            </p>
           </div>
-
-          <div class="main-subscription">
-            <div class="main-subscription__item1">
-              <i class="fa fa-envelope" style="font-size: 36px"></i>
-            </div>
-            <div class="main-subscription__item2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
-              quaerat.
-            </div>
-            <div class="main-subscription__item3">
-              <form>
-                <input type="text" />
-                <label for="">Subscribe</label>
-              </form>
-            </div>
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/200x140/E8117F/fff?text=Featured"
+            />
+            <h2>Card 3</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
+              urna et magna placerat tempor sed nec erat.
+            </p>
           </div>
-
-          <div class="main-cards">
-            <div class="card">
-              <img
-                src="https://via.placeholder.com/200x140/E8117F/fff?text=Featured"
-                alt=""
-              />
-              <div class="title">Acomplish</div>
-              <div class="title">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-                officiis.
-              </div>
-            </div>
-            <div class="card">
-              <img
-                src="https://via.placeholder.com/200x140/E8117F/fff?text=Featured"
-                alt=""
-              />
-              <div class="title">Acomplish</div>
-              <div class="title">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-                officiis.
-              </div>
-            </div>
-            <div class="card">
-              <img
-                src="https://via.placeholder.com/200x140/E8117F/fff?text=Featured"
-                alt=""
-              />
-              <div class="title">Acomplish</div>
-              <div class="title">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-                officiis.
-              </div>
-            </div>
-            <div class="card">
-              <img
-                src="https://via.placeholder.com/200x140/E8117F/fff?text=Featured"
-                alt=""
-              />
-              <div class="title">Acomplish</div>
-              <div class="title">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-                officiis.
-              </div>
-            </div>
-
-            <div class="card__item">CARD TITLE</div>
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/200x140/E8117F/fff?text=Featured"
+            />
+            <h2>Card 4</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
+              urna et magna placerat tempor sed nec erat.
+            </p>
           </div>
         </div>
       </main>
 
-      <nav class="sidenav">
-        <div class="sidenav-container">
-          <div class="sidenav-logo-continaer">
-            <div class="sidenav-logo">
-              <img
-                src="https://via.placeholder.com/120/E8117F/fff?text=LOGO"
-                alt="Logo"
-              />
-            </div>
-
-            <div class="sidenav-navbar">
-              <p class="sidenav-navbar__item">Item 1</p>
-              <p class="sidenav-navbar__item">Item 2</p>
-              <p class="sidenav-navbar__item">Item 3</p>
-              <p class="sidenav-navbar__item">Item 4</p>
-              <p class="sidenav-navbar__item">Item 5</p>
-            </div>
-          </div>
-
-          <div class="sidenav-social">
-            <div class="sidenav-social__item">TWEETER</div>
-            <div class="sidenav-social__item">join our community</div>
-            <div class="sidenav-social__item">FACEBOOK</div>
-            <div class="sidenav-social__item">join our community</div>
-          </div>
-        </div>
-      </nav>
-
-      <footer class="footer">
-        <div class="footer-legal">
+      <footer class="footer-container">
+        <div class="footer-item footer__legal-links">
           <p>
             <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> |
             <span><a href="#">Contact</a></span
             ><br />© 2016 Your Brand, all rights reserved.
           </p>
         </div>
-
-        <div class="footer-links">
+        <div class="footer-item footer__social-links">
           <i class="fa fa-twitter-square fa-3x"></i>
           <i class="fa fa-facebook-official fa-3x"></i>
           <i class="fa fa-rss-square fa-3x"></i>
